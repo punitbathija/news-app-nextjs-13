@@ -26,9 +26,7 @@
 }
 
 .description p {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  position: relative;
   margin: 0;
   padding: 1rem;
   background-color: rgba(var(--callout-rgb), 0.5);
@@ -78,8 +76,8 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  position: relative;
   padding: 4rem 0;
-  gap: 30px;
 }
 
 .center::before {
