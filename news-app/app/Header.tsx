@@ -1,6 +1,7 @@
 import React from "react";
 import { Bars3Icon, CodeBracketIcon } from "@heroicons/react/24/solid";
 import Link from "next/link";
+import Categories from "./categories";
 
 function Header() {
   return (
